@@ -4,7 +4,7 @@ Script to run an Aztec Sequencer
 # How to run
 ## Download & execute the script
 ```sh
-wget -qO- https://raw.githubusercontent.com/on-blockchain/aztec-sequencer/main/aztec.sh | bash
+wget -O aztec.sh https://raw.githubusercontent.com/on-blockchain/aztec-sequencer/main/aztec.sh && chmod +x aztec.sh && ./aztec.sh
 ```
 
 If everything is successful, the node will run in a screen called aztec
